@@ -20,6 +20,9 @@ Every release lists the same files. The newest nightly's links never change, so 
 | Linux, x86-64 | `ScarletNX-linux-x86_64.AppImage` | `chmod +x` it and run it |
 | Linux, ARM64 | `ScarletNX-linux-aarch64.AppImage` | `chmod +x` it and run it |
 | Linux, PowerPC64 LE | `ScarletNX-linux-ppc64le.AppImage` | `chmod +x` it and run it. Present only when its job built |
+| Linux, PowerPC64 | `ScarletNX-linux-ppc64.AppImage` | `chmod +x` it and run it. Present only when its job built |
+| Linux, RISC-V 64 | `ScarletNX-linux-riscv64.AppImage` | `chmod +x` it and run it. Present only when its job built |
+| Linux, LoongArch64 | `ScarletNX-linux-loongarch64.AppImage` | `chmod +x` it and run it. Present only when its job built |
 | Windows, x86-64 | `ScarletNX-windows-x86_64.zip` | Unzip it and run `bin\scarletnx.exe` |
 | Android | `ScarletNX-android-universal.apk` | Install it. [Android](https://github.com/scarletnx/ScarletNX/blob/main/docs/ANDROID.md) has the first run |
 | macOS, Apple silicon | `ScarletNX-macos-arm64.zip` | Unzip it, then *Open* from the Finder's menu, as the app is signed ad hoc |
