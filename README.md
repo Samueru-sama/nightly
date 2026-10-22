@@ -28,8 +28,11 @@ Every release lists the same files. The newest nightly's links never change, so 
 | macOS, Apple silicon | `ScarletNX-macos-arm64.zip` | Unzip it, then *Open* from the Finder's menu, as the app is signed ad hoc |
 | iOS | `ScarletNX-ios-arm64.ipa` | Sideload it |
 
-No game runs on macOS or iOS yet, so those two are for people testing the builds themselves
+Games hardly run on macOS or iOS yet, so those two are for people testing the builds themselves
 ([macOS and iOS](https://github.com/scarletnx/ScarletNX/blob/main/docs/APPLE.md)).
+On macOS one game reaches its title background, without the logo or the menu.
+On iOS a game ran on an iPhone with JIT enabled through StikDebug, but that support is still in a
+[pull request](https://github.com/scarletnx/ScarletNX/pull/602), so the nightly's IPA does not have it.
 Each AppImage has a `.zsync` file beside it, which AppImage's update tools use to download only what changed.
 Games need a Vulkan 1.3 driver.
 
